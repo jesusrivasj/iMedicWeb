@@ -1,0 +1,44 @@
+@charset "windows-1252";
+@font-face {
+	font-family: FiraSansRegular;
+	src: url('../fonts/FiraSans-Regular.otf');
+}
+
+html,body {
+    margin:0px;
+    padding:0px;
+    height:100%;
+    width:100%;
+    font-family:FiraSansRegular;
+    color:#FFFFFF
+}
+
+#margenmain{
+    height:10%;
+    width:100%;
+}
+
+#main {
+    width:80%;
+    height:80%;
+    margin:0 auto;
+    border-width:0.2rem;
+    border-style:solid;
+    border-color:#00539F;
+    background: -moz-linear-gradient(top, rgba(0,149,221,1) 0%, rgba(0,83,159,1) 85%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,149,221,1)), color-stop(85%, rgba(0,83,159,1)));
+    background: -webkit-linear-gradient(top, rgba(0,149,221,1) 0%, rgba(0,83,159,1) 85%);
+    background: -o-linear-gradient(top, rgba(0,149,221,1) 0%, rgba(0,83,159,1) 85%);
+    background: -ms-linear-gradient(top, rgba(0,149,221,1) 0%, rgba(0,83,159,1) 85%);
+    background: linear-gradient(to bottom, rgba(0,149,221,1) 0%, rgba(0,83,159,1) 85%);
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+form {
+  margin-top:15%;
+}
+
+.camposlogin {
+  text-align:center;
+}
